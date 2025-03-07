@@ -42,7 +42,23 @@ let stringNum = String(someNum)
 
 
 
+// ************************************* Operations ********************************************//
 
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+console.log("1" + 2); //O/p : 12
+console.log(1 + "2"); //O/p : 12 
+console.log("1" + 2 + 2); //O/p : 122
+console.log(1 + 2 + "2"); //O/p : 32
+
+ console.log(+true); //O/p: 1
+ console.log(+"");   //O/p: 0
+
+ 
+ 
+ 
 
 
 
