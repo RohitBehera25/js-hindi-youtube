@@ -37,3 +37,37 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+/* ***************************Memorys***************************** */
+
+// Two Type of memory are Stack Memory and Second One is Heap Memory
+
+// Stack (Primitive)
+// Heap (Non-Primitive)
+
+let myYouTube = "RohitChannel"
+
+let myAnotherChannel = myYouTube
+
+myAnotherChannel = "RohitAurChai"
+
+console.log(myYouTube); //O/p : RohitChannel
+console.log(myAnotherChannel); //O/p :RohitAurChai
+
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rohit@gmail.com"
+// Note: To access any value in object u can use by "."
+
+console.log(userOne.email); //O/p : rohit@gmail.com
+console.log(userTwo.email); //O/p : rohit@gmail.com
+
+
+
