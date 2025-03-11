@@ -1,6 +1,5 @@
-//  Primitive (Call-By-Value) which means Jaab hi ham usko kahi na kahi se copy karta hai jo 
-// uska orginal data ka refernce nhi diya jaat uska copy kar ka diya jaat hai or 
-// usma jo bhi changes karta ho uska copy mai karta ho 
+//  Primitive (Call-By-Value) which means Jaab hi ham usko kahi na kahi se copy karta hai jo uska orginal data ka refernce 
+// nhi diya jaat uska copy kar ka diya jaat hai or usma jo bhi changes karta ho uska copy mai karta ho 
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
