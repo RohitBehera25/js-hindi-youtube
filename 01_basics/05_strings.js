@@ -16,4 +16,8 @@ console.log(gameName.toUpperCase()); //O/p: ROHITB
 console.log(gameName.charAt(5)); //O/p:B
 console.log(gameName.indexOf('t')); //O/p:4
 
+const newString = gameName.substring(0, 4)
+console.log(newString); //O/p:ROhi
 
+const anotherString = gameName.slice(-5, 4)
+console.log(anotherString); //O/p: Ohi
